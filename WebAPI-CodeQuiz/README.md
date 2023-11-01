@@ -33,3 +33,4 @@ To run the WEB API QUIZZZ App on your local machine, follow these steps:
 6. After the game is over, you can save your initials and score to track your progress compared to others.
 
 ## Screenshots
+"https://drive.google.com/file/d/15dZrZK4UfjgdOQcbwmglA4W7XPemIjFS/preview"
