@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUIZZZ</title>
+</head>
+
+
+<body>
+  
+  <div class="container">
+    <h1 id="quizTitle">WEB API Quiz</h1>
+    <button id="startButton">Start Quiz</button>
+    <div id="quizContainer" class="hidden">
+      <div id="timer">60</div>
+      <div id="question"></div>
+      <ul id="choices"></ul>
+      <button id="nextButton" class="hidden">Next</button>
+    </div>
+    <div id="result" class="hidden">
+      <h2>Your score: <span id="score"></span></h2>
+      <label for="initials">Enter your initials: </label>
+      <input type="text" id="initials">
+      <button id="saveScore">Save Score</button>
+      <button id="restartButton" class="hidden">Restart Quiz</button> 
+
+    </div>
+    <div id="highScores" class="hidden">
+      <h2>High Scores</h2>
+      <ul id="highScoresList"></ul>
+      <button id="clearScores">Clear Scores</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
